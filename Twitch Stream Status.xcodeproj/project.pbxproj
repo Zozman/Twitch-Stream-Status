@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB187FB51886F11900F751B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB187FB41886F11900F751B0 /* Cocoa.framework */; };
+		BB187FBF1886F11900F751B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB187FBD1886F11900F751B0 /* InfoPlist.strings */; };
+		BB187FC11886F11900F751B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB187FC01886F11900F751B0 /* main.m */; };
+		BB187FC51886F11900F751B0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB187FC31886F11900F751B0 /* Credits.rtf */; };
+		BB187FC81886F11900F751B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB187FC71886F11900F751B0 /* AppDelegate.m */; };
+		BB187FCB1886F11900F751B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB187FC91886F11900F751B0 /* MainMenu.xib */; };
+		BB187FCD1886F11900F751B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB187FCC1886F11900F751B0 /* Images.xcassets */; };
+		BB187FD41886F11900F751B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB187FD31886F11900F751B0 /* XCTest.framework */; };
+		BB187FD51886F11900F751B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB187FB41886F11900F751B0 /* Cocoa.framework */; };
+		BB187FDD1886F11900F751B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB187FDB1886F11900F751B0 /* InfoPlist.strings */; };
+		BB187FDF1886F11900F751B0 /* Twitch_Stream_StatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB187FDE1886F11900F751B0 /* Twitch_Stream_StatusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB187FD61886F11900F751B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB187FA91886F11900F751B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB187FB01886F11900F751B0;
+			remoteInfo = "Twitch Stream Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB187FB11886F11900F751B0 /* Twitch Stream Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitch Stream Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB187FB41886F11900F751B0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BB187FB71886F11900F751B0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BB187FB81886F11900F751B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB187FB91886F11900F751B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB187FBC1886F11900F751B0 /* Twitch Stream Status-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitch Stream Status-Info.plist"; sourceTree = "<group>"; };
+		BB187FBE1886F11900F751B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB187FC01886F11900F751B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB187FC21886F11900F751B0 /* Twitch Stream Status-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitch Stream Status-Prefix.pch"; sourceTree = "<group>"; };
+		BB187FC41886F11900F751B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BB187FC61886F11900F751B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB187FC71886F11900F751B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB187FCA1886F11900F751B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB187FCC1886F11900F751B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB187FD21886F11900F751B0 /* Twitch Stream StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twitch Stream StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB187FD31886F11900F751B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB187FDA1886F11900F751B0 /* Twitch Stream StatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitch Stream StatusTests-Info.plist"; sourceTree = "<group>"; };
+		BB187FDC1886F11900F751B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB187FDE1886F11900F751B0 /* Twitch_Stream_StatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twitch_Stream_StatusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB187FAE1886F11900F751B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB187FB51886F11900F751B0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB187FCF1886F11900F751B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB187FD51886F11900F751B0 /* Cocoa.framework in Frameworks */,
+				BB187FD41886F11900F751B0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB187FA81886F11900F751B0 = {
+			isa = PBXGroup;
+			children = (
+				BB187FBA1886F11900F751B0 /* Twitch Stream Status */,
+				BB187FD81886F11900F751B0 /* Twitch Stream StatusTests */,
+				BB187FB31886F11900F751B0 /* Frameworks */,
+				BB187FB21886F11900F751B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB187FB21886F11900F751B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FB11886F11900F751B0 /* Twitch Stream Status.app */,
+				BB187FD21886F11900F751B0 /* Twitch Stream StatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB187FB31886F11900F751B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FB41886F11900F751B0 /* Cocoa.framework */,
+				BB187FD31886F11900F751B0 /* XCTest.framework */,
+				BB187FB61886F11900F751B0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB187FB61886F11900F751B0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FB71886F11900F751B0 /* AppKit.framework */,
+				BB187FB81886F11900F751B0 /* CoreData.framework */,
+				BB187FB91886F11900F751B0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BB187FBA1886F11900F751B0 /* Twitch Stream Status */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FC61886F11900F751B0 /* AppDelegate.h */,
+				BB187FC71886F11900F751B0 /* AppDelegate.m */,
+				BB187FC91886F11900F751B0 /* MainMenu.xib */,
+				BB187FCC1886F11900F751B0 /* Images.xcassets */,
+				BB187FBB1886F11900F751B0 /* Supporting Files */,
+			);
+			path = "Twitch Stream Status";
+			sourceTree = "<group>";
+		};
+		BB187FBB1886F11900F751B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FBC1886F11900F751B0 /* Twitch Stream Status-Info.plist */,
+				BB187FBD1886F11900F751B0 /* InfoPlist.strings */,
+				BB187FC01886F11900F751B0 /* main.m */,
+				BB187FC21886F11900F751B0 /* Twitch Stream Status-Prefix.pch */,
+				BB187FC31886F11900F751B0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB187FD81886F11900F751B0 /* Twitch Stream StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FDE1886F11900F751B0 /* Twitch_Stream_StatusTests.m */,
+				BB187FD91886F11900F751B0 /* Supporting Files */,
+			);
+			path = "Twitch Stream StatusTests";
+			sourceTree = "<group>";
+		};
+		BB187FD91886F11900F751B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB187FDA1886F11900F751B0 /* Twitch Stream StatusTests-Info.plist */,
+				BB187FDB1886F11900F751B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB187FB01886F11900F751B0 /* Twitch Stream Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB187FE21886F11900F751B0 /* Build configuration list for PBXNativeTarget "Twitch Stream Status" */;
+			buildPhases = (
+				BB187FAD1886F11900F751B0 /* Sources */,
+				BB187FAE1886F11900F751B0 /* Frameworks */,
+				BB187FAF1886F11900F751B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twitch Stream Status";
+			productName = "Twitch Stream Status";
+			productReference = BB187FB11886F11900F751B0 /* Twitch Stream Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB187FD11886F11900F751B0 /* Twitch Stream StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB187FE51886F11900F751B0 /* Build configuration list for PBXNativeTarget "Twitch Stream StatusTests" */;
+			buildPhases = (
+				BB187FCE1886F11900F751B0 /* Sources */,
+				BB187FCF1886F11900F751B0 /* Frameworks */,
+				BB187FD01886F11900F751B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB187FD71886F11900F751B0 /* PBXTargetDependency */,
+			);
+			name = "Twitch Stream StatusTests";
+			productName = "Twitch Stream StatusTests";
+			productReference = BB187FD21886F11900F751B0 /* Twitch Stream StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB187FA91886F11900F751B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zac Lovoy";
+				TargetAttributes = {
+					BB187FD11886F11900F751B0 = {
+						TestTargetID = BB187FB01886F11900F751B0;
+					};
+				};
+			};
+			buildConfigurationList = BB187FAC1886F11900F751B0 /* Build configuration list for PBXProject "Twitch Stream Status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB187FA81886F11900F751B0;
+			productRefGroup = BB187FB21886F11900F751B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB187FB01886F11900F751B0 /* Twitch Stream Status */,
+				BB187FD11886F11900F751B0 /* Twitch Stream StatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB187FAF1886F11900F751B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB187FBF1886F11900F751B0 /* InfoPlist.strings in Resources */,
+				BB187FCD1886F11900F751B0 /* Images.xcassets in Resources */,
+				BB187FC51886F11900F751B0 /* Credits.rtf in Resources */,
+				BB187FCB1886F11900F751B0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB187FD01886F11900F751B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB187FDD1886F11900F751B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB187FAD1886F11900F751B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB187FC81886F11900F751B0 /* AppDelegate.m in Sources */,
+				BB187FC11886F11900F751B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB187FCE1886F11900F751B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB187FDF1886F11900F751B0 /* Twitch_Stream_StatusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB187FD71886F11900F751B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB187FB01886F11900F751B0 /* Twitch Stream Status */;
+			targetProxy = BB187FD61886F11900F751B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB187FBD1886F11900F751B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB187FBE1886F11900F751B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB187FC31886F11900F751B0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB187FC41886F11900F751B0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BB187FC91886F11900F751B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB187FCA1886F11900F751B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BB187FDB1886F11900F751B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB187FDC1886F11900F751B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB187FE01886F11900F751B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB187FE11886F11900F751B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB187FE31886F11900F751B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitch Stream Status/Twitch Stream Status-Prefix.pch";
+				INFOPLIST_FILE = "Twitch Stream Status/Twitch Stream Status-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB187FE41886F11900F751B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitch Stream Status/Twitch Stream Status-Prefix.pch";
+				INFOPLIST_FILE = "Twitch Stream Status/Twitch Stream Status-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB187FE61886F11900F751B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twitch Stream Status.app/Contents/MacOS/Twitch Stream Status";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitch Stream Status/Twitch Stream Status-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Twitch Stream StatusTests/Twitch Stream StatusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB187FE71886F11900F751B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twitch Stream Status.app/Contents/MacOS/Twitch Stream Status";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitch Stream Status/Twitch Stream Status-Prefix.pch";
+				INFOPLIST_FILE = "Twitch Stream StatusTests/Twitch Stream StatusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB187FAC1886F11900F751B0 /* Build configuration list for PBXProject "Twitch Stream Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB187FE01886F11900F751B0 /* Debug */,
+				BB187FE11886F11900F751B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB187FE21886F11900F751B0 /* Build configuration list for PBXNativeTarget "Twitch Stream Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB187FE31886F11900F751B0 /* Debug */,
+				BB187FE41886F11900F751B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB187FE51886F11900F751B0 /* Build configuration list for PBXNativeTarget "Twitch Stream StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB187FE61886F11900F751B0 /* Debug */,
+				BB187FE71886F11900F751B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB187FA91886F11900F751B0 /* Project object */;
+}
