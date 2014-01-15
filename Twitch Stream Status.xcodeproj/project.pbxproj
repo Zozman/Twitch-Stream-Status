@@ -18,6 +18,9 @@
 		BB187FD51886F11900F751B0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB187FB41886F11900F751B0 /* Cocoa.framework */; };
 		BB187FDD1886F11900F751B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB187FDB1886F11900F751B0 /* InfoPlist.strings */; };
 		BB187FDF1886F11900F751B0 /* Twitch_Stream_StatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB187FDE1886F11900F751B0 /* Twitch_Stream_StatusTests.m */; };
+		BB187FEA1886F29900F751B0 /* Json.m in Sources */ = {isa = PBXBuildFile; fileRef = BB187FE91886F29900F751B0 /* Json.m */; };
+		BB187FEC1887052500F751B0 /* siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB187FEB1887052500F751B0 /* siren.mp3 */; };
+		BB187FEE1887054A00F751B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB187FED1887054A00F751B0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,10 @@
 		BB187FDA1886F11900F751B0 /* Twitch Stream StatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitch Stream StatusTests-Info.plist"; sourceTree = "<group>"; };
 		BB187FDC1886F11900F751B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB187FDE1886F11900F751B0 /* Twitch_Stream_StatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twitch_Stream_StatusTests.m; sourceTree = "<group>"; };
+		BB187FE81886F29900F751B0 /* Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Json.h; sourceTree = "<group>"; };
+		BB187FE91886F29900F751B0 /* Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json.m; sourceTree = "<group>"; };
+		BB187FEB1887052500F751B0 /* siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren.mp3; sourceTree = "<group>"; };
+		BB187FED1887054A00F751B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB187FEE1887054A00F751B0 /* AVFoundation.framework in Frameworks */,
 				BB187FB51886F11900F751B0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +103,7 @@
 		BB187FB31886F11900F751B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB187FED1887054A00F751B0 /* AVFoundation.framework */,
 				BB187FB41886F11900F751B0 /* Cocoa.framework */,
 				BB187FD31886F11900F751B0 /* XCTest.framework */,
 				BB187FB61886F11900F751B0 /* Other Frameworks */,
@@ -120,6 +129,8 @@
 				BB187FC91886F11900F751B0 /* MainMenu.xib */,
 				BB187FCC1886F11900F751B0 /* Images.xcassets */,
 				BB187FBB1886F11900F751B0 /* Supporting Files */,
+				BB187FE81886F29900F751B0 /* Json.h */,
+				BB187FE91886F29900F751B0 /* Json.m */,
 			);
 			path = "Twitch Stream Status";
 			sourceTree = "<group>";
@@ -127,6 +138,7 @@
 		BB187FBB1886F11900F751B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB187FEB1887052500F751B0 /* siren.mp3 */,
 				BB187FBC1886F11900F751B0 /* Twitch Stream Status-Info.plist */,
 				BB187FBD1886F11900F751B0 /* InfoPlist.strings */,
 				BB187FC01886F11900F751B0 /* main.m */,
@@ -234,6 +246,7 @@
 				BB187FCD1886F11900F751B0 /* Images.xcassets in Resources */,
 				BB187FC51886F11900F751B0 /* Credits.rtf in Resources */,
 				BB187FCB1886F11900F751B0 /* MainMenu.xib in Resources */,
+				BB187FEC1887052500F751B0 /* siren.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +267,7 @@
 			files = (
 				BB187FC81886F11900F751B0 /* AppDelegate.m in Sources */,
 				BB187FC11886F11900F751B0 /* main.m in Sources */,
+				BB187FEA1886F29900F751B0 /* Json.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
