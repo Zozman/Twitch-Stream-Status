@@ -1,4 +1,4 @@
-Twitch-Stream-Status
+Twitch Stream Status
 ====================
 
 An application that will trigger an alert if a channel on Twitch goes down for Mac OS X.
