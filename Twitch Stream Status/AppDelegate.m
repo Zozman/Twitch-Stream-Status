@@ -42,6 +42,7 @@ NSTimer *checker;
         [alert setMessageText:@"ERROR: Channel Name Invalid"];
         [alert runModal];
         [self deactivateChecker];
+        [audioPlayer play];
     } else if (status == (id)[NSNull null]) {
         [_statusIndicator setWarningValue:0];
         [self deactivateChecker];

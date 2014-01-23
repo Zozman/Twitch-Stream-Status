@@ -21,6 +21,8 @@
 		BB187FEA1886F29900F751B0 /* Json.m in Sources */ = {isa = PBXBuildFile; fileRef = BB187FE91886F29900F751B0 /* Json.m */; };
 		BB187FEC1887052500F751B0 /* siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB187FEB1887052500F751B0 /* siren.mp3 */; };
 		BB187FEE1887054A00F751B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB187FED1887054A00F751B0 /* AVFoundation.framework */; };
+		BB7C61F91890A50C00517CE9 /* TSS_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7C61F81890A50C00517CE9 /* TSS_Small.png */; };
+		BB7C62051890A94000517CE9 /* TSS_big.icns in Resources */ = {isa = PBXBuildFile; fileRef = BB7C62041890A94000517CE9 /* TSS_big.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		BB187FE91886F29900F751B0 /* Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Json.m; sourceTree = "<group>"; };
 		BB187FEB1887052500F751B0 /* siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren.mp3; sourceTree = "<group>"; };
 		BB187FED1887054A00F751B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB7C61F81890A50C00517CE9 /* TSS_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSS_Small.png; sourceTree = "<group>"; };
+		BB7C62041890A94000517CE9 /* TSS_big.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = TSS_big.icns; path = ../TSS_big.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 		BB187FBB1886F11900F751B0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB7C62041890A94000517CE9 /* TSS_big.icns */,
+				BB7C61F81890A50C00517CE9 /* TSS_Small.png */,
 				BB187FEB1887052500F751B0 /* siren.mp3 */,
 				BB187FBC1886F11900F751B0 /* Twitch Stream Status-Info.plist */,
 				BB187FBD1886F11900F751B0 /* InfoPlist.strings */,
@@ -242,11 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7C61F91890A50C00517CE9 /* TSS_Small.png in Resources */,
 				BB187FBF1886F11900F751B0 /* InfoPlist.strings in Resources */,
 				BB187FCD1886F11900F751B0 /* Images.xcassets in Resources */,
 				BB187FC51886F11900F751B0 /* Credits.rtf in Resources */,
 				BB187FCB1886F11900F751B0 /* MainMenu.xib in Resources */,
 				BB187FEC1887052500F751B0 /* siren.mp3 in Resources */,
+				BB7C62051890A94000517CE9 /* TSS_big.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +404,6 @@
 		BB187FE31886F11900F751B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitch Stream Status/Twitch Stream Status-Prefix.pch";
@@ -409,7 +416,6 @@
 		BB187FE41886F11900F751B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twitch Stream Status/Twitch Stream Status-Prefix.pch";
@@ -478,6 +484,7 @@
 				BB187FE41886F11900F751B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB187FE51886F11900F751B0 /* Build configuration list for PBXNativeTarget "Twitch Stream StatusTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +493,7 @@
 				BB187FE71886F11900F751B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

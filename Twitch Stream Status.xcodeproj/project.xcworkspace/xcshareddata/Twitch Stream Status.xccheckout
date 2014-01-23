@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C122CB66-9A13-40B3-B127-BA91861F7D09</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Twitch Stream Status</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1EDFE6E8-2208-49B5-8301-18DF0E161C11</key>
+		<string>https://github.com/Zozman/Twitch-Stream-Status.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Twitch Stream Status.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1EDFE6E8-2208-49B5-8301-18DF0E161C11</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Zozman/Twitch-Stream-Status.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1EDFE6E8-2208-49B5-8301-18DF0E161C11</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1EDFE6E8-2208-49B5-8301-18DF0E161C11</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Twitch Stream Status</string>
+		</dict>
+	</array>
+</dict>
+</plist>
